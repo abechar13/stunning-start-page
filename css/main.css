@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+  font-family: Gerogia, serif;
+  line-height: 1.5;
+  color: #323232;
+  background-color: #bebebe;
 }
 
 *, *::before, *::after {
@@ -20,8 +24,8 @@ header {
   grid-template-columns: auto 10rem auto;
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
-  "left center right"
-  ". center .";
+    "left center right"
+    ". center .";
   margin-bottom: 1.5rem;
 }
 
@@ -63,4 +67,13 @@ nav a {
 
 nav a:hover {
   background-color: #960062;
+}
+
+main {
+  padding: 0 1rem;
+}
+
+main p {
+  margin: 0 0 1.5rem;
+  font-size: 1.125rem;
 }
