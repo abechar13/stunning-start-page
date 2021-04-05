@@ -77,3 +77,8 @@ main p {
   margin: 0 0 1.5rem;
   font-size: 1.125rem;
 }
+
+h2 {
+  margin: 0 0 1.5rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
